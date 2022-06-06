@@ -1,0 +1,214 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(/static/public/image/backg.jpg);
+  background-size: cover;
+}
+
+h1 {
+    text-align: center;
+   }
+.board_{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  left: 480px;
+}
+
+.board{
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  left: 330px;
+}
+
+.game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 60px;
+  }
+
+  .game-board_ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+  }
+  
+.letter-box {
+    border: 2px solid yellow;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+.filled-box {
+    border: 2px solid black;
+  }
+  
+.letter-row {
+    display: flex;
+  }
+
+.keyboard {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.keyboard div {
+    display: flex;
+  }
+  
+.row-2 {
+    margin: 0rem 0;
+  }
+  
+.keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    padding: 1rem;
+    margin: 0 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+.keyboard-button:hover, .keyboard-button:focus{
+    background-color: peru;
+  }
+
+  .toast-title {
+    font-weight: bold;
+  }
+  
+  .toast-message a,
+  .toast-message label {
+    color: #FFFFFF;
+  }
+
+.game-board_2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /*position: relative;
+  left: 60px;*/
+}
+
+.game-board_2_ {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 120px;
+}
+
+.letter-box2 {
+  border: 2px solid yellow;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.letter-row2 {
+  display: flex;
+}
+
+.game-board_3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 120px;
+}
+
+.letter-box3 {
+  border: 2px solid yellow;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.letter-row3 {
+  display: flex;
+}
+
+.objects{
+  position: relative;
+  top: 30px;
+  margin: auto;
+}
+
+
+html,body{
+  text-align: center;
+}
+
+.container{
+  margin:auto;
+}
+
+.window{
+  border: 5px solid #979292;
+  border-radius: 10px;
+  margin: 5vh 10vw;
+}
+
+.header{
+  border-bottom: 2px solid black;
+}
+
+.newRoom,.joinRoom{
+  margin: 4vh 1vw;
+}
+
+#message{
+  color: red;
+  background-color: white;
+}
+
+
+#player, #opponent1, #opponent2{
+  position: relative;
+  bottom: 400px;
+  color: RED;
+}
+
+#spectator1{
+  position: relative;
+  bottom: 200px;
+}
+
+#spectator{
+  position: relative;
+  bottom: 200px;
+}
+
